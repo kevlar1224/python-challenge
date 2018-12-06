@@ -34,6 +34,7 @@ for i in range(len(candidates_list)):
 most_votes = max(candidate_total)
 winner = candidates_list[candidate_total.index(most_votes)]
 
+print('Total Votes: ' + str(total_votes))
 print("The candidates were: \n")
 for i in range(len(candidates_list)):
     print(candidates_list[i] + ", with " + str(candidate_total[i]) + " votes (" + str(candidates_percentages[i]) + "%" +  " of the popular vote)")
